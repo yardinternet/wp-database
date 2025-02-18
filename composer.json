@@ -1,11 +1,11 @@
 {
-	"name": "yard/skeleton-package",
+	"name": "yard/wp-database",
 	"type": "package",
-	"description": ":package_description",
+	"description": "WordPress Eloquent ORM",
 	"license": "MIT",
 	"support": {
-		"source": "https://github.com/yardinternet/skeleton-package",
-		"issues": "https://github.com/yardinternet/skeleton-package/issues"
+		"source": "https://github.com/yardinternet/wp-database",
+		"issues": "https://github.com/yardinternet/wp-database/issues"
 	},
 	"config": {
 		"sort-packages": true,
@@ -31,12 +31,12 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Yard\\SkeletonPackage\\": "src/"
+			"Yard\\Database\\": "src/"
 		}
 	},
 	"autoload-dev": {
 		"psr-4": {
-			"Yard\\SkeletonPackage\\Tests\\": "tests/"
+			"Yard\\Database\\Tests\\": "tests/"
 		}
 	},
 	"scripts": {
@@ -56,7 +56,7 @@
 	"extra": {
 		"acorn": {
 			"providers": [
-				"Yard\\SkeletonPackage\\SkeletonPackageServiceProvider"
+				"Yard\\Database\\DatabaseServiceProvider"
 			]
 		}
 	}

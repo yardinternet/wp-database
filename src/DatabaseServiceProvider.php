@@ -2,30 +2,30 @@
 
 declare(strict_types=1);
 
-namespace Yard\SkeletonPackage;
+namespace Yard\Database;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Yard\SkeletonPackage\Console\ExampleCommand;
+use Yard\Database\Console\DatabaseCommand;
 
-class SkeletonPackageServiceProvider extends PackageServiceProvider
+class DatabaseServiceProvider extends PackageServiceProvider
 {
 	public function configurePackage(Package $package): void
 	{
 		$package
-			->name('skeleton-package')
+			->name('wp-database')
 			->hasConfigFile()
 			->hasViews()
-			->hasCommand(ExampleCommand::class);
+			->hasCommand(DatabaseCommand::class);
 	}
 
 	public function packageRegistered(): void
 	{
-		$this->app->singleton(Example::class, fn () => new Example($this->app));
+		$this->app->singleton(Database::class, fn () => new Database($this->app));
 	}
 
 	public function packageBooted(): void
 	{
-		$this->app->make(Example::class);
+		$this->app->make(Database::class);
 	}
 }
