@@ -43,17 +43,3 @@ You can publish the config file with:
 ```shell
 wp acorn vendor:publish --provider="Yard\Database\DatabaseServiceProvider"
 ```
-
-## Usage
-
-From a Blade template:
-
-```blade
-@include('wp-database::database')
-```
-
-From WP-CLI:
-
-```shell
-wp acorn database
-```
