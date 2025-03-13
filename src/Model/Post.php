@@ -9,7 +9,6 @@ use Exception;
 use Spatie\LaravelData\WithData;
 use Yard\Data\PostData;
 
-
 class Post extends CorcelPost
 {
 	use WithData;
