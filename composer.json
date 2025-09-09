@@ -25,7 +25,7 @@
 	"require": {
 		"php": ">=8.2",
 		"jgrossi/corcel": "^9.0",
-		"roots/acorn": "^5.0",
+		"roots/acorn": "^4.0|^5.0",
 		"spatie/laravel-data": "^4.0",
 		"spatie/laravel-package-tools": "^1.16",
 		"yard/data": "dev-feat/acorn-5"

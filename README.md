@@ -7,12 +7,6 @@
 [![Lines of Code Badge](https://github.com/yardinternet/wp-database/blob/badges/lines-of-code.svg)](https://github.com/yardinternet/wp-database/actions/workflows/badges.yml)
 
 
-
-## Requirements
-
-- [Sage](https://github.com/roots/sage) >= 10.0
-- [Acorn](https://github.com/roots/acorn) >= 5.0
-
 ## Installation
 
 To install this package using Composer, follow these steps:
