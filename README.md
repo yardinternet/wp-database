@@ -6,7 +6,7 @@
 [![Code Coverage Badge](https://github.com/yardinternet/wp-database/blob/badges/coverage.svg)](https://github.com/yardinternet/wp-database/actions/workflows/badges.yml)
 [![Lines of Code Badge](https://github.com/yardinternet/wp-database/blob/badges/lines-of-code.svg)](https://github.com/yardinternet/wp-database/actions/workflows/badges.yml)
 
-
+WordPress Eloquent ORM
 
 ## Requirements
 
@@ -17,22 +17,13 @@
 
 To install this package using Composer, follow these steps:
 
-1. Add the following to the `repositories` section of your `composer.json`:
-
-    ```json
-    {
-      "type": "vcs",
-      "url": "git@github.com:yardinternet/wp-database.git"
-    }
-    ```
-
-2. Install this package with Composer:
+1. Install this package with Composer:
 
     ```sh
     composer require yard/wp-database
     ```
 
-3. Run the Acorn WP-CLI command to discover this package:
+2. Run the Acorn WP-CLI command to discover this package:
 
     ```shell
     wp acorn package:discover
@@ -43,3 +34,7 @@ You can publish the config file with:
 ```shell
 wp acorn vendor:publish --provider="Yard\Database\DatabaseServiceProvider"
 ```
+
+## About us
+
+[![banner](https://raw.githubusercontent.com/yardinternet/.github/refs/heads/main/profile/assets/small-banner-github.svg)](https://www.yard.nl/werken-bij/)
