@@ -13,7 +13,6 @@ WordPress Eloquent ORM
 ## Requirements
 
 - [Sage](https://github.com/roots/sage) >= 10.0
-- [Acorn](https://github.com/roots/acorn) 4 or 5
 
 ## Installation
 
