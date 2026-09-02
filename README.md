@@ -5,6 +5,8 @@
 [![Tests](https://github.com/yardinternet/wp-database/actions/workflows/run-tests.yml/badge.svg?no-cache)](https://github.com/yardinternet/wp-database/actions/workflows/run-tests.yml)
 [![Code Coverage Badge](https://github.com/yardinternet/wp-database/blob/badges/coverage.svg)](https://github.com/yardinternet/wp-database/actions/workflows/badges.yml)
 [![Lines of Code Badge](https://github.com/yardinternet/wp-database/blob/badges/lines-of-code.svg)](https://github.com/yardinternet/wp-database/actions/workflows/badges.yml)
+![Packagist Dependency Version](https://img.shields.io/packagist/dependency-v/yard/wp-database/php)
+![Packagist Dependency Version](https://img.shields.io/packagist/dependency-v/yard/wp-database/roots%2Facorn)
 
 WordPress Eloquent ORM
 
