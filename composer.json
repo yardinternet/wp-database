@@ -24,11 +24,11 @@
 	},
 	"require": {
 		"php": ">=8.2",
-		"jgrossi/corcel": "^7.0 || ^8.0 || ^9.0",
-		"roots/acorn": "^4.0 || ^5.0",
+		"jgrossi/corcel": "^9.0",
+		"roots/acorn": "^5.0",
 		"spatie/laravel-data": "^4.13",
 		"spatie/laravel-package-tools": "^1.16",
-		"yard/data": "^1.6"
+		"yard/data": "^2.0"
 	},
 	"require-dev": {
 		"10up/wp_mock": "^0.4.2",
